@@ -1,3 +1,4 @@
+local QBCore = exports['qb-core']:GetCoreObject()
 local registerDone = false
 local glassState = {}
 
@@ -148,3 +149,4 @@ RegisterNetEvent('takenncs-weaponshoprob:reset', function()
     registerDone = false
     glassState = {}
 end)
+
